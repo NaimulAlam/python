@@ -119,3 +119,12 @@ print(math.pi)
 print(math.sqrt(64))
 print(math.ceil(gpa))
 print(math.floor(gpa))
+
+# Casting a string to a number
+
+zipcode = "1000"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+# Error if we attmpt to cast a string to a number (incorrect data type)
+# zip_value = int("CTG")
